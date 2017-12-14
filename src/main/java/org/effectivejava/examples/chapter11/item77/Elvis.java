@@ -7,6 +7,7 @@ import java.util.Arrays;
 
 // Broken singleton - has nontransient object reference field!
 public class Elvis implements Serializable {
+	
 	public static final Elvis INSTANCE = new Elvis();
 
 	private Elvis() {
